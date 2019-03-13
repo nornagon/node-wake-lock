@@ -4,5 +4,13 @@
   "description": "keep your computer awake",
   "main": "index.js",
   "author": "Jeremy Apthorp <nornagon@nornagon.net>",
+  "repository": "https://github.com/nornagon/node-wake-lock",
+  "keywords": [
+    "wake",
+    "sleep",
+    "idle",
+    "display",
+    "prevent"
+  ],
   "gypfile": true
 }

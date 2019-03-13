@@ -1,8 +1,12 @@
 {
-  "targets": [
+  'targets': [
     {
-      "target_name": "caffeine",
-      "sources": [ "caffeine.cc" ]
+      'target_name': 'caffeine',
+      'conditions': [
+        ['OS=="mac"', {
+          'sources': [ 'caffeine_mac.cc' ]
+        }]
+      ]
     }
   ]
 }
