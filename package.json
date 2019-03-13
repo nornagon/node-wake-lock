@@ -1,6 +1,6 @@
 {
-  "name": "caffeine",
-  "version": "0.0.0",
+  "name": "wake-lock",
+  "version": "0.1.0",
   "description": "keep your computer awake",
   "main": "index.js",
   "author": "Jeremy Apthorp <nornagon@nornagon.net>",
