@@ -1,4 +1,9 @@
-const native = require('./build/Release/caffeine');
+const native = process.platform === 'darwin'
+  ? require('bindings')('caffeine')
+  : {
+    createPMAssertion() { throw new Error("WakeLock only supported on darwin") },
+    releasePMAssertion() { throw new Error("WakeLock only supported on darwin") },
+  };
 
 class WakeLock {
   constructor(reason, options) {

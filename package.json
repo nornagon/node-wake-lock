@@ -12,5 +12,8 @@
     "display",
     "prevent"
   ],
-  "gypfile": true
+  "gypfile": true,
+  "dependencies": {
+    "bindings": "^1.5.0"
+  }
 }
