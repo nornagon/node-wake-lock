@@ -2,9 +2,10 @@
   "name": "wake-lock",
   "version": "0.1.0",
   "description": "keep your computer awake",
-  "main": "index.js",
   "author": "Jeremy Apthorp <nornagon@nornagon.net>",
   "repository": "https://github.com/nornagon/node-wake-lock",
+  "homepage": "https://github.com/nornagon/node-wake-lock",
+  "main": "index.js",
   "keywords": [
     "wake",
     "sleep",
@@ -12,6 +13,7 @@
     "display",
     "prevent"
   ],
+  "license": "ISC",
   "gypfile": true,
   "dependencies": {
     "bindings": "^1.5.0"
