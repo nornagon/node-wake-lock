@@ -1,6 +1,6 @@
 {
   "name": "wake-lock",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "keep your computer awake",
   "author": "Jeremy Apthorp <nornagon@nornagon.net>",
   "repository": "https://github.com/nornagon/node-wake-lock",
