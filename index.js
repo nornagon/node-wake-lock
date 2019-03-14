@@ -19,4 +19,4 @@ class WakeLock {
   }
 }
 
-module.exports = WakeLock;
+module.exports = {WakeLock};
